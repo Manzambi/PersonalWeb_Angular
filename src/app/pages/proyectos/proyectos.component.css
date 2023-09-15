@@ -1,0 +1,31 @@
+.padre{
+    margin-top: 40px;
+    margin-bottom: 0px;
+   
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+   
+}
+
+.div2{
+    width: 50%; 
+    margin: auto;
+    
+   
+}

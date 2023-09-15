@@ -1,0 +1,21 @@
+/*.active-link{
+    font-weight: bold;    usado para negritar en este caso negrita y agranda el link selecionado
+}
+*/
+
+.navbar-nav .nav-link{ 
+    /* color: green;      con este codigo viajamos hasta las etiquetas li con nombres en comun y activamos el color verde del link toda vez que presionamos el link*/
+     color: var(--secondary-color);
+     font-weight: bold;
+ }
+ 
+
+.navbar-nav .nav-link.active-link{ 
+   /* color: green;      con este codigo viajamos hasta las etiquetas li con nombres en comun y activamos el color verde del link toda vez que presionamos el link*/
+    color: var(--primary-color);
+    font-weight: bold;
+   /* text-decoration: underline;  propiedade text-decoration es usado para las tags ´a´ que son links en este caso sirve para decir que apracele el subrayado cuando presionamos */
+}
+
+
+

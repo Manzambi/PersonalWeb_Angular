@@ -1,0 +1,42 @@
+<div class="banner">
+    <div class="content">
+        <h1 >BIENVENIDO A MI PORTAFOLIO <br>SOY MANZAMBI ANTONIO</h1>
+         <a href="../../../assets/documentos/ManzambiAntonio_CV_2023.pdf" download="ManzambiAntonio_CV_2023.pdf">Descargar Curriculo <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<div class="container mt-5 mb-5 step">
+    <h1 class="text-center">Desarrollador  <span class="span" >FrontEnd</span></h1>
+    <div class="row  mt-5">
+
+        <!---one-->
+        <div class="col-lg-4 mt-2" (click)="acercadelAutor()">
+            <div class="stepBox1" >
+                <div class="stepBox ">
+                    <h1>1</h1>
+                    <p >Acerca del Autor</p>
+                </div> 
+            </div> 
+        </div>
+        
+         <!---two-->
+        <div class=" col-lg-4 mt-2" (click)="MisDocumentos()">
+            <div class="stepBox2">
+                <div class="stepBox">
+                    <h1>2</h1>
+                    <p>Mis Documentos</p>
+                </div>
+            </div>
+        </div>
+
+         <!---Tree-->
+        <div class="col-lg-4 mt-2" (click)="misProyectos()">
+           <div class="stepBox3">
+                <div class="stepBox ">
+                    <h1>3</h1>
+                    <p>Proyectos</p>
+                </div>
+           </div>            
+        </div>
+    </div>
+</div>

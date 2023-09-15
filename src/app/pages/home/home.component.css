@@ -1,0 +1,111 @@
+.banner{
+    background-image: url('../../../assets/img/banner2.jpg');  /* para poner background como fondo */
+    height: 600px;  /* para definir la altura que la imagen va a tener */
+    background-position: center; /* para centralizar la imagen background en div */
+    background-size: cover; /* para compactar lo maximo posible de tal modo que se pueda ver la imagen completa */
+}
+
+.content{
+    left: 20%; /* aqui estamos dando una margen izquierda de 20% */
+    top: 30%; /* aqui estamos dando una margen top de 50% */
+    position: absolute; /* aqui estamos diciendo que la margen de 20% dada su posicion tiene que ser relativa */
+}
+
+.content h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    bottom: 15px;     /* adicionado por mi eliminar en caso de problemas*/
+    position: relative; /* adicionado por mi eliminar en caso de problemas*/
+   
+}
+
+.content a{
+    
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 20px 20px;
+    font-weight: bold;
+    border-radius: 5px; /* para poner en forma circular las bordas dependendo de la cantidad de pixel puede ser mas circular o menos*/
+
+}
+
+.content a:hover{
+   background-color: green;
+   color: #fff;
+}
+
+.stepBox{
+   
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepBox h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.stepBox h1:hover{
+    color: white;
+}
+
+.stepBox p{
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+
+
+.stepBox1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.stepBox1 p:hover{
+    color: #fff;    
+}
+
+.stepBox2{
+     background-image: url("../../../assets/imgDocumentos/docs.jpg");
+     background-size: cover;
+     border-radius: 20px;
+}
+
+.stepBox2:hover{
+    cursor: pointer;
+}
+
+.stepBox3{
+    background-image:url("../../../assets/imgProyectos/Proyecto.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.stepBox3{
+    cursor: pointer;
+}
+
+.span{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.carousel-item1{
+     width: 50%;
+     margin: auto;
+     margin-bottom: 50px;
+     
+    
+}
+
+.micarrosel{
+    
+}
+

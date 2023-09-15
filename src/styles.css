@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{ /* style.css es el css general de la app es visto desde cualquier componente de la app cuando usamos :root dice que es desde el elemento raiz donde definimos dos colores una primario y otro secundario es decir seran como variables que almacenan colores estas variables pueden ser usados desde cualquier componente css para colores ::mira navbar.css*/
+    --primary-color:#3FC060;
+    --secondary-color:#162328;
+}    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh; /* esta propiedad dice que el cuerpo va a tener un tamaño de 100 dando un estpazamiento entre nav y footer*/
+    
+}
